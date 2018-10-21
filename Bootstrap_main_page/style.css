@@ -1,0 +1,167 @@
+﻿/* NAVBAR STYLING */
+
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 5px 0;
+	font-size: 1.3em;
+	border: 0;
+}
+
+.navbar-nav{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar-collapse{
+	text-align: center;
+}
+	
+#logo{
+	height: 55px;
+	width: 150px;
+}
+
+.navbar-brand{
+	float: left;
+	min-height: 55px;
+	padding: 0 20px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus .navbar-inverse .navbar-nav .active a:hover{
+	color: #fff;
+	background-color: #302e2e;
+}
+
+.navbar-inverse .navbar-nav li a{
+	color: #d5d5d5;
+}
+
+/* SLIDER STYLING */
+
+.carousel-caption{
+	top: 55%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#cap{
+	animation-duration: 1.5s;
+}
+
+/* SLIDER BUTTONS STYLING */
+
+.btn{
+	font-size: 18px;
+	color: #fff;
+	padding: 10px 30px;
+	background-color: #302e2e;
+	border: 2px solid #fff;
+	opacity: .7;
+}
+
+.btn:hover{
+	background-color: #5b7fba;
+	color: #fff;
+	transition-duration: .7s;
+}
+
+.btn1{
+	font-size: 18px;
+	color: #fff;
+	padding: 10px 40px;
+	background-color: #5b7fba;
+	border: none;
+	opacity: .7;
+	margin-top: 150px;
+}
+
+.btn1:hover{
+	background-color: #fff;
+	color: #000000;
+	transition-duration: .7s;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 600px){
+	.carousel-caption{
+		display: none;
+	}
+	#icon1{
+		max-width: 150px;
+	}
+	#icon2{
+		max-width: 150px;
+	}
+	#icon3{
+		max-width: 150px;
+	}
+}
+
+@media (max-width: 900px){
+	.fa{
+		font-size: 10px;
+		padding: 10px;
+	}
+}
+
+
+/* PICTURE ANIMATIONS */
+
+#icon1{
+	max-width: 200px;
+	margin: 1% auto;
+	animation-delay: .3s;
+	animation-duration: 1.5s;
+}
+
+#icon2{
+	max-width: 200px;
+	margin: 1% auto;
+	animation-delay: .6s;
+	animation-duration: 1.5s;
+}
+
+#icon3{
+	max-width: 200px;
+	margin: 1% auto;
+	animation-delay: .9s;
+	animation-duration: 1.5s;
+}
+
+/* CONTENT */
+
+.container{
+	margin: 2% auto;
+}
+
+.text{
+	font-size: 16px;
+}
+
+/* FOOTER */
+
+footer{
+	width: 100%;
+	background-color: #302e2e;
+	padding: 3%;
+	color: #fff;
+}
+
+/* SOCIAL MEDIA ICONS */
+
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.fa:hover{
+	text-decoration: none;
+}
+
