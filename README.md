@@ -6,3 +6,5 @@ And some links to codepen with results:
   Project No. 1: this one's not on codepen, since it contains some sound files.
   
   Project No. 2: https://codepen.io/pukinho-the-sasster/pen/PydWPW
+  
+  Project No. 3: https://codepen.io/pukinho-the-sasster/pen/bmmrLO
